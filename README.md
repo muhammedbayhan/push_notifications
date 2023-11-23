@@ -1,8 +1,13 @@
 # push_notifications
 
-A new Flutter project.
+Send notifications to users via Firebase
 
-## Getting Started
+## SS
+
+
+![ss](https://github.com/muhammedbayhan/push_notifications/blob/main/screenshot/1.png)
+![ss](https://github.com/muhammedbayhan/push_notifications/blob/main/screenshot/2.png)
+![ss](https://github.com/muhammedbayhan/push_notifications/blob/main/screenshot/3.png)
 
 This project is a starting point for a Flutter application.
 
