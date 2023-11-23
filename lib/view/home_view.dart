@@ -9,18 +9,29 @@ class HomeView extends StatefulWidget {
 }
 
 class _HomeViewState extends State<HomeView> {
-
-  final _notificationService=NotificationService();
+  final _notificationService = NotificationService();
   @override
   void initState() {
-    // TODO: implement initState
+    
     super.initState();
     _notificationService.connectNotification();
   }
+
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      appBar: AppBar(title: Text("Push Notifications"),),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Push Notifications"),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Center(
+            child: Text(
+          "Send notifications to customers via Firebase",
+          style: Theme.of(context).textTheme.titleLarge,
+          textAlign: TextAlign.center,
+        )),
+      ),
     );
   }
 }
